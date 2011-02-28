@@ -2,6 +2,8 @@
 	* List of firewalls is fetched from webserver (Caching using If-Modified-Since HTTP Header?)
 	* Connect sequentially to firewalls in the list, if unable to connect to the first, continue to the next on the list.
 	* Handle error messages neatly and show them to the user
+	* Detect users ip address to help connecting, e.g:
+		* If outside K-Net ip range, tell the user if connection fails
 * Allow the user to save username and password persistently
 	* Encryption?
 * Show usage statistics using RESTless API to web server
