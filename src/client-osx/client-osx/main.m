@@ -3,7 +3,7 @@
 //  client-osx
 //
 //  Created by Mathias Hansen on 28/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Mathias Hansen. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

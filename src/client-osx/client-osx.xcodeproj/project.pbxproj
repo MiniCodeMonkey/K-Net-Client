@@ -16,10 +16,12 @@
 		3D5E2617131C0A5E006AB515 /* IconError.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5E2614131C0A5D006AB515 /* IconError.png */; };
 		3D5E2618131C0A5E006AB515 /* IconInactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5E2615131C0A5D006AB515 /* IconInactive.png */; };
 		3D5E2619131C0A5E006AB515 /* IconConnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5E2616131C0A5D006AB515 /* IconConnected.png */; };
+		3D5E263D131C15CD006AB515 /* libcore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5E263C131C15CD006AB515 /* libcore.dylib */; };
+		3D5E2659131C642E006AB515 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D5E2658131C642E006AB515 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D5E25F3131BFDA4006AB515 /* client-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5E25F3131BFDA4006AB515 /* K-Net Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-Net Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5E25F7131BFDA5006AB515 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3D5E25FA131BFDA5006AB515 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		3D5E25FB131BFDA5006AB515 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -35,6 +37,8 @@
 		3D5E2614131C0A5D006AB515 /* IconError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconError.png; sourceTree = "<group>"; };
 		3D5E2615131C0A5D006AB515 /* IconInactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconInactive.png; sourceTree = "<group>"; };
 		3D5E2616131C0A5D006AB515 /* IconConnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconConnected.png; sourceTree = "<group>"; };
+		3D5E263C131C15CD006AB515 /* libcore.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcore.dylib; sourceTree = SOURCE_ROOT; };
+		3D5E2658131C642E006AB515 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5E263D131C15CD006AB515 /* libcore.dylib in Frameworks */,
 				3D5E25F8131BFDA5006AB515 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +57,7 @@
 		3D5E25E8131BFDA4006AB515 = {
 			isa = PBXGroup;
 			children = (
+				3D5E263C131C15CD006AB515 /* libcore.dylib */,
 				3D5E25FD131BFDA5006AB515 /* client-osx */,
 				3D5E25F6131BFDA5006AB515 /* Frameworks */,
 				3D5E25F4131BFDA4006AB515 /* Products */,
@@ -61,7 +67,7 @@
 		3D5E25F4131BFDA4006AB515 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D5E25F3131BFDA4006AB515 /* client-osx.app */,
+				3D5E25F3131BFDA4006AB515 /* K-Net Client.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +97,7 @@
 				3D5E2614131C0A5D006AB515 /* IconError.png */,
 				3D5E2615131C0A5D006AB515 /* IconInactive.png */,
 				3D5E2616131C0A5D006AB515 /* IconConnected.png */,
+				3D5E2658131C642E006AB515 /* Icon.png */,
 				3D5E2609131BFDA5006AB515 /* client_osxAppDelegate.h */,
 				3D5E260A131BFDA5006AB515 /* client_osxAppDelegate.m */,
 				3D5E260C131BFDA5006AB515 /* MainMenu.xib */,
@@ -128,7 +135,7 @@
 			);
 			name = "client-osx";
 			productName = "client-osx";
-			productReference = 3D5E25F3131BFDA4006AB515 /* client-osx.app */;
+			productReference = 3D5E25F3131BFDA4006AB515 /* K-Net Client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +171,7 @@
 				3D5E2617131C0A5E006AB515 /* IconError.png in Resources */,
 				3D5E2618131C0A5E006AB515 /* IconInactive.png in Resources */,
 				3D5E2619131C0A5E006AB515 /* IconConnected.png in Resources */,
+				3D5E2659131C642E006AB515 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +257,13 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "client-osx/client_osx-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/../core";
 				INFOPLIST_FILE = "client-osx/client_osx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "K-Net Client";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,8 +277,13 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "client-osx/client_osx-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"/../core";
 				INFOPLIST_FILE = "client-osx/client_osx-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "K-Net Client";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -289,6 +307,7 @@
 				3D5E2613131BFDA5006AB515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
