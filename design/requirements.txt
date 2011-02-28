@@ -1,0 +1,8 @@
+* Connect to the K-Net firewall using a pseudo tty-less connection
+	* List of firewalls is fetched from webserver (Caching using If-Modified-Since HTTP Header?)
+	* Connect sequentially to firewalls in the list, if unable to connect to the first, continue to the next on the list.
+	* Handle error messages neatly and show them to the user
+* Allow the user to save username and password persistently
+	* Encryption?
+* Show usage statistics using RESTless API to web server
+	* In the beginning just show used traffic / total traffic available
