@@ -1,0 +1,180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		3D5E25E1131BFD4A006AB515 /* libknet-core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libknet-core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D5E25DE131BFD4A006AB515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5E25D6131BFD4A006AB515 = {
+			isa = PBXGroup;
+			children = (
+				3D5E25E2131BFD4A006AB515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D5E25E2131BFD4A006AB515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D5E25E1131BFD4A006AB515 /* libknet-core.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D5E25DF131BFD4A006AB515 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D5E25E0131BFD4A006AB515 /* knet-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D5E25E5131BFD4A006AB515 /* Build configuration list for PBXNativeTarget "knet-core" */;
+			buildPhases = (
+				3D5E25DD131BFD4A006AB515 /* Sources */,
+				3D5E25DE131BFD4A006AB515 /* Frameworks */,
+				3D5E25DF131BFD4A006AB515 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knet-core";
+			productName = "knet-core";
+			productReference = 3D5E25E1131BFD4A006AB515 /* libknet-core.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D5E25D8131BFD4A006AB515 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3D5E25DB131BFD4A006AB515 /* Build configuration list for PBXProject "knet-core" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D5E25D6131BFD4A006AB515;
+			productRefGroup = 3D5E25E2131BFD4A006AB515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5E25E0131BFD4A006AB515 /* knet-core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D5E25DD131BFD4A006AB515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3D5E25E3131BFD4A006AB515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D5E25E4131BFD4A006AB515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D5E25E6131BFD4A006AB515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D5E25E7131BFD4A006AB515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D5E25DB131BFD4A006AB515 /* Build configuration list for PBXProject "knet-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5E25E3131BFD4A006AB515 /* Debug */,
+				3D5E25E4131BFD4A006AB515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D5E25E5131BFD4A006AB515 /* Build configuration list for PBXNativeTarget "knet-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D5E25E6131BFD4A006AB515 /* Debug */,
+				3D5E25E7131BFD4A006AB515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D5E25D8131BFD4A006AB515 /* Project object */;
+}
