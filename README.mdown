@@ -1,2 +1,14 @@
 Cross-Platform K-Net Client
-For authentication to the internet on the dorms around DTU
+=======
+This project's purpose is to create a cross-platform core making it possible to
+easily create K-Net clients for various platforms.
+This should help keeping a tight integration with the operating system. thus
+creating a better experience for the end user.
+
+[![](http://matisen.dk/knet_screen.png)](http://matisen.dk/knet_screen.png)
+
+K-Net Client
+=======
+
+A K-Net client creates a pseudo tty-less connection to the K-Net firewall,
+enabling residents at the dorms located around DTU to connect to the internet.
